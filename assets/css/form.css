@@ -1,0 +1,19 @@
+#formToggle {
+  margin: 36px auto;
+  width: 60vw;
+  display: none;
+}
+
+#contact-form {
+  display: block;
+}
+
+#radio-select {
+  border-radius: 25px;
+  border: 2px solid gray;
+  margin: 20px;
+}
+
+.form-check {
+  margin: 20px;
+}
