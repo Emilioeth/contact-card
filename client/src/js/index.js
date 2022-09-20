@@ -24,6 +24,12 @@ window.addEventListener('load', function () {
   document.getElementById('dogThumbnail').src = Dog;
 });
 
+if ('serviceWorker' in navigator) {
+    // Use the window load event to keep the page load performant
+    window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./service-worker.js');
+})};
+
 // Form functionality
 const form = document.getElementById("formToggle");
 const newContactButton = document.getElementById("new-contact");
