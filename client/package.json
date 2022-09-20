@@ -25,6 +25,8 @@
   "dependencies": {
     "@popperjs/core": "^2.11.6",
     "bootstrap": "^5.2.1",
-    "idb": "^7.0.2"
+    "idb": "^7.0.2",
+    "save-dev": "^0.0.1-security",
+    "webpack-pwa-manifest": "^4.3.0"
   }
 }
